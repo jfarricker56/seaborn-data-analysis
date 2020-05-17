@@ -11,7 +11,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import time
 
-data = pd.read_csv('')
+data = pd.read_csv('data/data.csv')
 data.head()
 data.info() #33columns ,IDcolumn(unique) (may need to get rid of)
             #class labels are diagnosis (target variable)
